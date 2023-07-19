@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>as a user want to notification without login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d885f548-38b2-4d66-9142-2df8e60b3130</testCaseGuid>
+</TestCaseEntity>
