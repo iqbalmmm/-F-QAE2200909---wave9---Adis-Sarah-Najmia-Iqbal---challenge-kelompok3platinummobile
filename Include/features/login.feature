@@ -17,8 +17,8 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: Register
-  As a user want to test login feature
+Feature: Notification
+  As a user want to test Notification feature
 
   @positive
   Scenario: REG-001 user want to login with valid credential
@@ -28,3 +28,47 @@ Feature: Register
   	And user insert email
   	Then user insert password
   	Then user click masuk
+  	Then user click notification 
+  	
+  	  @positive
+  Scenario: REG-001 user want to login with valid credential
+  	Given user start application and navigate to url "app-release-second-hand-gcp-apk"
+  	When user click account
+  	When user click masuk
+  	And user insert email
+  	Then user insert password
+  	Then user click masuk
+  	Then user want to verify date and clock
+  	
+  		  @positive
+  Scenario: REG-001 user want to login with valid credential
+  	Given user start application and navigate to url "app-release-second-hand-gcp-apk"
+  	When user click account
+  	When user click masuk
+  	And user insert email
+  	Then user insert password
+  	Then user click masuk
+  	Then user want to verify price
+  	
+  		  @positive
+  Scenario: REG-001 user want to login with valid credential
+  	Given user start application and navigate to url "app-release-second-hand-gcp-apk"
+  	When user click account
+  	When user click masuk
+  	And user insert email
+  	Then user insert password
+  	Then user click masuk
+  	Then user want to verify text berhasil di terbitkan
+  	
+  		  @positive
+  Scenario: REG-001 user want to login with valid credential
+  	Given user start application and navigate to url "app-release-second-hand-gcp-apk"
+  	When user click account
+  	When user click masuk
+  	And user insert email
+  	Then user insert password
+  	Then user click masuk
+  	Then user want to verify date and clock
+  	
+  	
+  	
