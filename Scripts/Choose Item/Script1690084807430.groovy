@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Iqbal\\Downloads\\app-release-second-hand-gcp.apk', true)
+Mobile.startApplication('androidapp/app-release-second-hand-gcp.apk', true)
 
 Mobile.tapAndHold(findTestObject('Object Repository/Choose item/android.widget.EditText - Cari di Second Chance'), 0, 0)
 
