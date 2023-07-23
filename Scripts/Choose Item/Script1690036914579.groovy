@@ -19,19 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\Vasya\\Downloads\\app-release-second-hand-gcp.apk', true)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject('register/android.widget.TextView - Akun'), 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject('Choose Item/android.widget.Button - Masuk'), 0)
 
-Mobile.setText(findTestObject(''), 'you1@gmail.com', 0)
+Mobile.setText(findTestObject('Choose Item/android.widget.EditText - Masukkan email'), 'you1@gmail.com', 0)
 
-Mobile.setText(findTestObject(''), '123456', 0)
+Mobile.setText(findTestObject('Choose Item/android.widget.EditText - Masukkan password'), '123456', 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject('Choose Item/android.widget.Button - Masuk (1)'), 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject('register/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tapAndHold(findTestObject('Choose Item/android.widget.EditText - Cari di Second Chance'), 5, 0)
 
-Mobile.closeApplication()
+Mobile.setText(findTestObject('Choose Item/android.widget.EditText - Cari di Second Chance'), 'Powerbank Putih Kel 3', 0)
+
+Mobile.tap(findTestObject('Choose Item/android.widget.TextView - Powerbank Putih Kel 3'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Choose Item/android.widget.Button - Saya Tertarik dan Ingin Nego'), 0)
+
+Mobile.setText(findTestObject('Choose Item/android.widget.EditText - Rp 0,00'), '200000', 0)
+
+Mobile.tap(findTestObject('Choose Item/android.widget.Button - Kirim'), 0)
 
