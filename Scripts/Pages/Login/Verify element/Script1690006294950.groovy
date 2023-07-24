@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.baseUrl, true)
+Mobile.verifyElementText(findTestObject('User Sell List/android.widget.TextView - Produk'), 'Produk')
 

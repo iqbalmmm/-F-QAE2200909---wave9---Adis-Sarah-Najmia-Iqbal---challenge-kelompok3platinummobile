@@ -18,6 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Mobile.setText(findTestObject('login/android.widget.EditText - Masukkan email'), CustomKeywords.'CustomKeyword.getRandomEmail'('random', '@gmail.com') , 0)
-
-Mobile.setText(findTestObject('login/android.widget.EditText - Masukkan email'), 'you1@gmail.com', 0)
+Mobile.setText(findTestObject('login/android.widget.EditText - Masukkan email'), GlobalVariable.Username, 0)
 
