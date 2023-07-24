@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FLT001 - As a user I want to filter product by electronic</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46558840-1b70-4e0a-8156-af8f5bf1660f</testCaseGuid>
+</TestCaseEntity>
