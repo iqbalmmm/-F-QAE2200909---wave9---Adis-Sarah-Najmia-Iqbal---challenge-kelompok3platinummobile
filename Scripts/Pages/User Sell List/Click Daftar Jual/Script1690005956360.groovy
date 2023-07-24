@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.baseUrl, true)
+Mobile.tap(findTestObject('User Sell List/android.widget.TextView - Daftar Jual Saya'), 0)
+
+Mobile.verifyElementVisible(findTestObject('User Sell List/android.widget.TextView - Produk'), 0)
 
