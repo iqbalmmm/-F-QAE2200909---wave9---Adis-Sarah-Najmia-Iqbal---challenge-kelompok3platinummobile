@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FLT002 - As a user I want to filter product by computer and accessory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fea846ef-c772-4101-ae5d-a8f3e744c84d</testCaseGuid>
+</TestCaseEntity>
